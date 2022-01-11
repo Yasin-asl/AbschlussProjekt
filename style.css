@@ -1,0 +1,135 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(170, 144, 170);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(155, 146, 155);
+  box-shadow: 5px 5px thistle;
+}
+.nav-bar-content {
+  padding: 10px;
+  display: inline-block;
+}
+.nav-bar-title {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.flex-mid-1 {
+  flex: 2;
+  text-align: center;
+  color: white;
+}
+.flex-mid-2 {
+  flex: 2;
+  text-align: center;
+  color: white;
+}
+.flex-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-column-1 {
+  flex: 1;
+}
+.flex-column-2 {
+  flex: 2;
+  text-align: center;
+}
+.heading1 {
+  padding: 5px 10px;
+  color: antiquewhite;
+}
+.fd-tools {
+  text-align: start;
+  color: rgb(54, 5, 56);
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-decoration: underline;
+  color: antiquewhite;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(248, 231, 231);
+  font-weight: bold;
+  list-style-type: none;
+}
+a:hover {
+  opacity: 50%;
+}
+#midpara1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+  text-transform: lowercase;
+}
+.midpara {
+  background-color: rgb(155, 146, 155);
+  border-radius: 20px;
+  color: antiquewhite;
+  font-weight: bold;
+  background-color: rgb(75, 53, 64);
+  box-shadow: 5px 5px 5px 5px rgb(117, 83, 100);
+}
+.midheading {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 550px;
+}
+#buttontop {
+  background-color: rgb(75, 53, 64);
+  color: black;
+  font-size: 20px;
+  border: 2px solid rgb(53, 46, 46);
+  border-radius: 15px;
+}
+button:hover {
+  background-color: rgb(119, 87, 103);
+  border: 3px dotted rgb(75, 53, 64);
+  padding: 8px 8px;
+}
+#iframevid {
+  display: flex;
+  justify-content: center;
+}
+#logounten {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 580px) {
+  .flex-mid {
+    flex-direction: column;
+  }
+  .nav-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 140%;
+  }
+  .spanbar {
+    display: inline-block;
+  }
+}
